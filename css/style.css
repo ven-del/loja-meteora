@@ -1,0 +1,26 @@
+@import url(./bombando.css);
+@import url(./carrossel.css);
+@import url(./categoria.css);
+@import url(./facildade.css);
+@import url(./footer.css);
+@import url(./header.css);
+@import url(./newsletter.css);
+
+:root {
+    --background-color: #000;
+    --color-white: #FFFFFF;
+    --text-unfocus-color: #6C757D;
+    --primary-color: #daff01;
+    --secondary-colo: #9353FF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
