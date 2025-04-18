@@ -42,3 +42,11 @@
     color: var(--color-white);
     border: none;
 }
+
+.newsletter-container button:hover {
+    cursor: pointer;
+}
+
+.newsletter-container button:active {
+    transform: scale(.9);
+}
