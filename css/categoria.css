@@ -1,0 +1,38 @@
+.categories {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 335px;
+    width: 100%;
+}
+
+.container-category {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    height: 263px;
+    width: 1110px;
+    text-align: center;
+}
+
+.container-category h2 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.card-category-container {
+    display: flex;
+    gap: 1rem;
+}
+
+.card-category {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-category p {
+    background-color: var(--background-color);
+    color: var(--color-white);
+    height: 35px;
+    padding: .4rem;
+}
