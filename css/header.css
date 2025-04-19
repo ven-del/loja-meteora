@@ -2,7 +2,7 @@ header {
     display: flex;
     justify-content: space-between;
     height: 3rem;
-    width: 100%;
+    max-width: 100%;
     background: var(--background-color);
 }
 
@@ -10,7 +10,7 @@ header nav {
     display: flex;
     align-items: center;
     gap: 2rem;
-    width: 100%;
+    width: fit-content;
     margin: .3rem 0 .3rem 1rem ;
 }
 
@@ -18,16 +18,19 @@ header nav ul {
     display: flex;
     gap: 1rem;
     justify-content: space-evenly;
-    width: 30%;
     list-style-type: none;
+}
 
+.first {
+    color: var(--color-white);
+    font-weight: 800;
 }
 
 header nav ul a {
     text-decoration: none;
     color: var(--text-unfocus-color);
-    &:hover,
-    :focus{
+    &:hover, 
+    :focus {
         color: var(--color-white);
         font-weight: 800;
     }
@@ -35,19 +38,19 @@ header nav ul a {
 
 .search-box {
     display: flex;
+    align-items: center;
     justify-content: right;
+    width: fit-content;
     gap: 1rem;
-    width: 50%;
-    margin: .6rem 2rem;
 }
 
 .search-box input {
-    height: 100%;
-    width: 40%;
+    height: 60%;
+    width: 60%;
     font-size: fit-content;
     padding: .6rem;
-    &:focus::placeholder{
-        
+    &:focus::placeholder {
+        color: rgba(0, 0, 0, 0);
     }
 }
 
@@ -61,5 +64,11 @@ header nav ul a {
 
 .search-box button:hover {
     cursor: pointer;
-    color: var(--color-white);
+}
+
+.search-box button:active {
+    background-color: var(--color-white);
+    color: var(--background-color);
+    border: 1px solid var(--background-color);
+    transform: scale(.9);
 }

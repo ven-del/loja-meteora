@@ -11,7 +11,7 @@
         <nav class="navbar">
             <a href=""><img src="./assets/logo/Logo desktop.svg" alt="logo meteora"></a>
             <ul>
-                <li><a href="">HOME</a></li>
+                <li ><a href="" class="first">HOME</a></li>
                 <li><a href="">LOJA</a></li>
                 <li><a href="">NOVIDADES</a></li>
                 <li><a href="">PROMOÇÕES</a></li>
@@ -25,7 +25,54 @@
     </header>
     <main>
         <section class="carousel"> 
-            <img src="./assets/banners/banner1.svg" alt="banner1">
+            <div class="carousel-container">
+                <div id="slide1" class="slide">
+                    <img src="./assets/banners/banner1.svg" alt="banner1">
+                    <div class="controls">
+                        <a href="#slide3" class="previous"></a>
+                        <a href="#slide2" class="next"></a>
+                    </div>
+                    <div class="indicators">
+                        <a href="#slide1" class="indicator"></a>
+                        <a href="#slide2" class="indicator"></a>
+                        <a href="#slide3" class="indicator"></a>
+                    </div>
+                </div>
+                <div id="slide2" class="slide">
+                    <img src="./assets/banners/Banner2.png" alt="banner1">
+                    <div class="slide-text">
+                        <h1>COLEÇÃO ATEMPORAL</h1>
+                        <P>Estilo e qualidade para durar.</P>
+                    </div>
+                    <div class="controls">
+                        <a href="#slide1" class="previous"></a>
+                        <a href="#slide3" class="next"></a>
+                    </div>
+                    <div class="indicators">
+                        <a href="#slide1" class="indicator"></a>
+                        <a href="#slide2" class="indicator"></a>
+                        <a href="#slide3" class="indicator"></a>
+                    </div>
+                </div>
+                <div id="slide3" class="slide">
+                    <img src="./assets/banners/Banner3.png" alt="banner1">
+                    <div class="slide-text">
+                        <h1>COLEÇÃO ATEMPORAL</h1>
+                        <P>Alto impacto visual, baixo impacto ambiental!</P>
+                    </div>
+                    <div class="controls">
+                        <a href="#slide2" class="previous"></a>
+                        <a href="#slide1" class="next"></a>
+                    </div>
+                    <div class="indicators">
+                        <a href="#slide1" class="indicator"></a>
+                        <a href="#slide2" class="indicator"></a>
+                        <a href="#slide3" class="indicator"></a>
+                    </div>
+                </div>
+            </div>
+
+
         </section>
         <section class="categories">
             <div class="container-category">

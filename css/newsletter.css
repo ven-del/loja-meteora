@@ -33,6 +33,11 @@
     border: 1px solid var(--background-color);
     padding-left: 1rem;
     border-right: none;
+    &:focus::placeholder {
+        transition: .6s ease-in;
+        transform: scale(.4);
+        transform: translate(-2%, -60%);
+    }
 }
 
 .newsletter-container button {
