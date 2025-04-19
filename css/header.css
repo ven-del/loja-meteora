@@ -42,6 +42,7 @@ header nav ul a {
     justify-content: right;
     width: fit-content;
     gap: 1rem;
+    margin-right: 1rem;
 }
 
 .search-box input {

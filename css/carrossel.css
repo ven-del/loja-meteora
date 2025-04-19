@@ -96,6 +96,6 @@
     cursor: pointer;
 }
 
-/* .indicators a.indicator:target {
+#indicator1, #indicator2, #indicator3 {
     background-color: var(--color-white);
-} */
+}
