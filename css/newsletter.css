@@ -6,6 +6,20 @@
     width: 100%;
 }
 
+.newsletter .modal-card {
+    height: 15%;
+}
+
+.newsletter .modal-card .modal-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter .modal-card p {
+    font-size: 1rem;
+}
+
 .newsletter-container {
     display: flex;
     align-items: center;
@@ -40,7 +54,10 @@
     }
 }
 
-.newsletter-container button {
+.newsletter-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 38px;
     width: 84px;
     background-color: var(--button-color);
@@ -48,10 +65,10 @@
     border: none;
 }
 
-.newsletter-container button:hover {
+.newsletter-button:hover {
     cursor: pointer;
 }
 
-.newsletter-container button:active {
+.newsletter-button:active {
     transform: scale(.9);
 }

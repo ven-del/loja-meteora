@@ -60,9 +60,13 @@
     font-weight: 700;
 }
 
-.card button {
+.card-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 37px;
     width: 102px;
+    padding: .6rem;
     background-color: var(--button-color);
     color: var(--color-white);
     border: none;
@@ -70,10 +74,10 @@
     
 }
 
-.card button:hover {
+.card-button:hover {
     cursor: pointer;
 }
 
-.card button:active {
+.card-button:active {
     transform: scale(.9);
 }

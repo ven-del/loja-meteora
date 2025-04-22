@@ -1,0 +1,132 @@
+.modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: none;
+    background: rgba(0,0,0,0.5);
+    justify-content: center;
+    align-items: center;
+    z-index: 777;    
+    
+}
+
+#modal1-toggle:checked ~ .modal-container {
+    display: flex;
+}
+#modal2-toggle:checked ~ .modal-container {
+    display: flex;
+}
+#modal3-toggle:checked ~ .modal-container {
+    display: flex;
+}
+#modal4-toggle:checked ~ .modal-container {
+    display: flex;
+}
+#modal5-toggle:checked ~ .modal-container {
+    display: flex;
+}
+#modal6-toggle:checked ~ .modal-container {
+    display: flex;
+}
+#modal-newsletter:checked ~ .modal-container {
+    display: flex;
+}
+
+.modal-card {
+    height: 587px;
+    width: 700px;
+    border: 1px solid rgba(0, 0, 0, 0.0);
+    box-shadow:  0 20px 20px rgba(0, 0, 0, 0.1);
+    background: var(--color-white);
+    & p{
+        padding: 0;
+        font-size: .8rem;
+    }
+    & h3 {
+        padding: 0;
+    }
+}
+
+.modal-card h2 {
+    color: var(--color-white);
+}
+
+.modal-card header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+.modal-card header label:active {
+    transform: scale(.9);
+}
+
+.modal-content {
+    display: flex;
+    gap: 1rem;
+    height: 90%;
+}
+
+.modal-content-info {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.info-description {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.small-text {
+    color: #ADB5BD;
+}
+
+.modal-content-info hr {
+    border: 1px solid;
+}
+
+.select {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-top: 1rem;
+    border-top: .5px solid rgba(128, 128, 128, 0.212);
+}
+
+.field  {
+    display: flex;
+    gap: 1.3rem;
+}
+
+.field div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.field label {
+    font-size: .8rem;
+}
+
+.modal-container button {
+    height: 10%;
+    width: 60%;
+    background-color: var(--button-color);
+    color: var(--color-white);
+    border: none;
+    font-size: 1.1rem;
+    &:hover {
+        cursor: pointer;
+    }
+    &:active {
+        transform: scale(.9);
+    }
+}
