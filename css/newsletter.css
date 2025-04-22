@@ -7,17 +7,36 @@
 }
 
 .newsletter .modal-card {
-    height: 15%;
+    height: 55%;
 }
 
 .newsletter .modal-card .modal-content {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 .newsletter .modal-card p {
     font-size: 1rem;
+    padding: 0;
+}
+
+.easter-egg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.easter-egg img {
+    height: fit-content;
+    width: fit-content;
+    align-self: center;
+    transform: scale(.8);
+}
+
+.easter-egg p {
+    width: fit-content
 }
 
 .newsletter-container {
